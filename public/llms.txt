@@ -1,0 +1,34 @@
+# sevenai
+
+> sevenai is an AI creative studio that produces 9:16 UGC video ads for e-commerce brands. Brands send a product URL; sevenai delivers 10 campaign-ready creatives in 24–48 hours for $549 (launch offer).
+
+## Docs
+
+- [Homepage](https://sevenaii.com/): Offer overview, mock format examples, FAQ, and brief form.
+- [How it works](https://sevenaii.com/how-it-works): Four steps — briefing, hook strategy, AI generation, 24–48h delivery.
+- [Traditional UGC vs AI UGC](https://sevenaii.com/ugc-vs-ai-ugc): Production cost, turnaround, shipping, and rights. Not a CAC or ROAS guarantee.
+- [Creative Testing Sprint](https://sevenaii.com/creative-testing-sprint): $549 for 10 videos ($54.90/file). What is included and what is not.
+- [About](https://sevenaii.com/about): Studio scope, contact, and what sevenai does not claim.
+
+## Key Facts
+
+- Offer: Creative Testing Sprint — 10 videos for $549 USD ($54.90 per video), first 10 brands
+- Turnaround: 24 to 48 hours after brief approval
+- Format: 9:16 for TikTok Shop, TikTok Ads, Meta Reels, YouTube Shorts
+- Rights: perpetual commercial usage included
+- Shipping: none
+- Claims: we publish production pricing, not unverified CPM/ROAS case studies
+- Contact: hello@sevenaii.com
+
+## Legal
+
+- [Terms of Service](https://sevenaii.com/terms): Commercial terms for the sprint and usage rights.
+- [Privacy Policy](https://sevenaii.com/privacy): Contact-form and site data.
+- [Cookie Policy](https://sevenaii.com/cookies): Cookies and similar storage.
+
+## Contact
+
+- Website: https://sevenaii.com/
+- Email: hello@sevenaii.com
+- Instagram: https://instagram.com/sevenai.studio
+- LinkedIn: https://linkedin.com/company/sevenai
