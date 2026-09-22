@@ -2,7 +2,7 @@
  * Meta Pixel for sevenaii.com.
  * Pegar el Pixel ID aquí, o usar VITE_META_PIXEL_ID en .env / Vercel.
  */
-const HARDCODED_PIXEL_ID = '';
+const HARDCODED_PIXEL_ID = '1110743077966114';
 const HARDCODED_DOMAIN_VERIFY = '';
 
 const viteEnv = typeof import.meta !== 'undefined' && import.meta.env ? import.meta.env : {};
