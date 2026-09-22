@@ -1,34 +1,34 @@
 # sevenai
 
-> sevenai is an AI creative studio that produces 9:16 UGC video ads for e-commerce brands. Brands send a product URL; sevenai delivers 10 campaign-ready creatives in 24–48 hours for $549 (launch offer).
+> sevenai es un estudio creativo con IA que produce anuncios UGC 9:16 para marcas de e-commerce. La marca envía la URL del producto; sevenai entrega 10 creatividades listas para campaña en 1–3 días por 597€ (oferta de lanzamiento).
 
 ## Docs
 
-- [Homepage](https://sevenaii.com/): Offer overview, mock format examples, FAQ, and brief form.
-- [How it works](https://sevenaii.com/how-it-works): Four steps — briefing, hook strategy, AI generation, 24–48h delivery.
-- [Traditional UGC vs AI UGC](https://sevenaii.com/ugc-vs-ai-ugc): Production cost, turnaround, shipping, and rights. Not a CAC or ROAS guarantee.
-- [Creative Testing Sprint](https://sevenaii.com/creative-testing-sprint): $549 for 10 videos ($54.90/file). What is included and what is not.
-- [About](https://sevenaii.com/about): Studio scope, contact, and what sevenai does not claim.
+- [Inicio](https://sevenaii.com/): oferta, ejemplos de formato, preguntas y formulario de brief.
+- [Cómo funciona](https://sevenaii.com/how-it-works): cuatro pasos — brief, ganchos, generación con IA, entrega en 1–3 días.
+- [UGC tradicional vs UGC con IA](https://sevenaii.com/ugc-vs-ai-ugc): coste de producción, plazo, envíos y derechos. No es una garantía de CAC ni de ROAS.
+- [Creative Testing Sprint](https://sevenaii.com/creative-testing-sprint): 597€ por 10 vídeos (59,70€/archivo). Qué incluye y qué no.
+- [Sobre sevenai](https://sevenaii.com/about): alcance del estudio, contacto y lo que sevenai no afirma.
 
-## Key Facts
+## Datos clave
 
-- Offer: Creative Testing Sprint — 10 videos for $549 USD ($54.90 per video), first 10 brands
-- Turnaround: 24 to 48 hours after brief approval
-- Format: 9:16 for TikTok Shop, TikTok Ads, Meta Reels, YouTube Shorts
-- Rights: perpetual commercial usage included
-- Shipping: none
-- Claims: we publish production pricing, not unverified CPM/ROAS case studies
-- Contact: hello@sevenaii.com
+- Oferta: Creative Testing Sprint — 10 vídeos por 597€ (59,70€ por vídeo), primeras 10 marcas
+- Plazo: 1 a 3 días tras aprobar el brief
+- Formato: 9:16 para TikTok Shop, TikTok Ads, Reels de Meta y YouTube Shorts
+- Derechos: uso comercial perpetuo incluido
+- Envío de producto: no
+- Afirmaciones: publicamos el precio de producción, no casos de CPM o ROAS sin verificar
+- Contacto: contact@sevenaii.com
 
 ## Legal
 
-- [Terms of Service](https://sevenaii.com/terms): Commercial terms for the sprint and usage rights.
-- [Privacy Policy](https://sevenaii.com/privacy): Contact-form and site data.
-- [Cookie Policy](https://sevenaii.com/cookies): Cookies and similar storage.
+- [Términos del servicio](https://sevenaii.com/terms): condiciones del sprint y derechos de uso.
+- [Política de privacidad](https://sevenaii.com/privacy): datos del formulario y del sitio.
+- [Política de cookies](https://sevenaii.com/cookies): cookies y almacenamiento similar.
 
-## Contact
+## Contacto
 
-- Website: https://sevenaii.com/
-- Email: hello@sevenaii.com
+- Web: https://sevenaii.com/
+- Email: contact@sevenaii.com
 - Instagram: https://instagram.com/sevenai.studio
 - LinkedIn: https://linkedin.com/company/sevenai
