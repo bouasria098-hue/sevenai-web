@@ -2,7 +2,7 @@
  * Meta Pixel for sevenaii.com.
  * Pegar el Pixel ID aquí, o usar VITE_META_PIXEL_ID en .env / Vercel.
  */
-const HARDCODED_PIXEL_ID = '1110743077966114';
+const HARDCODED_PIXEL_ID = '1419410637059642';
 const HARDCODED_DOMAIN_VERIFY = '';
 
 const viteEnv = typeof import.meta !== 'undefined' && import.meta.env ? import.meta.env : {};
@@ -203,7 +203,7 @@ function showConsentBanner() {
   banner.id = 'sevenai-cookie-banner';
   banner.setAttribute('role', 'dialog');
   banner.setAttribute('aria-label', 'Cookies de publicidad');
-  banner.innerHTML = `<p>Usamos el píxel de Meta para medir campañas y saber qué anuncios generan briefs. Puedes aceptar o rechazar las cookies de publicidad. Más info en la <a href="/cookies">política de cookies</a>.</p>
+  banner.innerHTML = `<p>Usamos cookies de publicidad para conocer cómo se utiliza nuestra web y medir la eficacia de nuestros anuncios. Puedes aceptarlas o rechazarlas y seguir navegando. Más información en la <a href="/cookies">Política de cookies</a>.</p>
        <div id="sevenai-cookie-actions">
          <button type="button" id="sevenai-cookie-accept">Aceptar</button>
          <button type="button" id="sevenai-cookie-reject">Rechazar</button>
