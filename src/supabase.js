@@ -1,7 +1,7 @@
 // src/supabase.js — Safe Supabase Client Setup (UMD global)
 
-let rawUrl = 'https://dvzbkhsjvymbadnbmmfk.supabase.co';
-const supabaseAnonKey = 'sb_publishable_f1xt8raz0W7DjwOzJfG_0g_-5DTFmQX';
+let rawUrl = 'https://ohhsbdpwggliwccegkkq.supabase.co';
+const supabaseAnonKey = 'sb_publishable_4JLZSmoL091mHb0PV271mw_4zn-Fzzm';
 
 let client = null;
 
