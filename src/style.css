@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Pure White & Electric Purple Design System for sevenai */
 
 :root {
@@ -728,6 +732,13 @@ body {
   transform: translateY(0) !important;
 }
 
+/* Above-the-fold content must paint immediately; delaying it inflates LCP. */
+#hero .reveal-on-scroll {
+  opacity: 1;
+  transform: none;
+  animation: none;
+}
+
 /* Input Focus Glow in Purple */
 input:focus, textarea:focus {
   outline: none;
@@ -1189,6 +1200,13 @@ input:focus, textarea:focus {
   .mesh-blob {
     filter: blur(90px);
     animation: none;
+  }
+
+  .fluid-wave-1,
+  .fluid-wave-2,
+  .offer-card-wrapper,
+  .offer-cta::after {
+    animation: none !important;
   }
 }
 
