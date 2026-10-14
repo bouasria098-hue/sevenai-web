@@ -20,6 +20,7 @@ export default defineConfig({
         ugcVsAi: resolve(root, 'ugc-vs-ai-ugc.html'),
         sprint: resolve(root, 'creative-testing-sprint.html'),
         about: resolve(root, 'about.html'),
+        ugcConIa: resolve(root, 'ugc-con-ia.html'),
       },
     },
   },
