@@ -28,4 +28,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://sevenaii.com/sitemap.xml
+Sitemap: https://www.sevenaii.com/sitemap.xml
