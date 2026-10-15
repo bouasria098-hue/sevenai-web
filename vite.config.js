@@ -21,6 +21,8 @@ export default defineConfig({
         sprint: resolve(root, 'creative-testing-sprint.html'),
         about: resolve(root, 'about.html'),
         ugcConIa: resolve(root, 'ugc-con-ia.html'),
+        contenidoUgc: resolve(root, 'contenido-ugc.html'),
+        creadorUgc: resolve(root, 'creador-ugc.html'),
       },
     },
   },
