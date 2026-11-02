@@ -29,7 +29,7 @@ export default async function handler(request, response) {
     company: ''
   };
 
-  if (!lead.nombre || !lead.email || !lead.telefono || !lead.fecha || !lead.hora ||
+  if (!lead.nombre || !lead.email || !lead.telefono ||
       !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(lead.email)) {
     return response.status(400).json({ ok: false, error: 'invalid_data' });
   }
