@@ -1205,7 +1205,7 @@ Your behavioral guidelines:
         <div id="formulario" class="lg:col-span-7 reveal-on-scroll" style="scroll-margin-top: 6.5rem">
           <div class="liquid-glass-card p-8 sm:p-10 shadow-2xl">
 
-            <form id="call-form" class="space-y-6">
+            <form id="call-form" class="space-y-6" novalidate>
               <div class="hidden" aria-hidden="true">
                 <label for="call-company">Empresa</label>
                 <input type="text" id="call-company" name="company" tabindex="-1" autocomplete="off">
@@ -1240,13 +1240,13 @@ Your behavioral guidelines:
 
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
-                  <label for="call-fecha" class="block text-xs font-semibold text-purple-200 uppercase tracking-wider mb-2"><span data-en="Preferred date *" data-es="Fecha preferida *">Fecha preferida *</span></label>
-                  <input type="date" id="call-fecha" name="call-fecha" required
+                  <label for="call-fecha" class="block text-xs font-semibold text-purple-200 uppercase tracking-wider mb-2"><span data-en="Preferred date (optional)" data-es="Fecha preferida (opcional)">Fecha preferida (opcional)</span></label>
+                  <input type="date" id="call-fecha" name="call-fecha"
                     class="w-full px-4 py-3.5 rounded-xl bg-white border border-purple-200 text-[#111111] focus:outline-none focus:border-purple-400 focus:ring-1 focus:ring-purple-400 transition-all text-sm">
                 </div>
                 <div>
-                  <label for="call-hora" class="block text-xs font-semibold text-purple-200 uppercase tracking-wider mb-2"><span data-en="Preferred time *" data-es="Hora preferida *">Hora preferida *</span></label>
-                  <select id="call-hora" name="call-hora" required
+                  <label for="call-hora" class="block text-xs font-semibold text-purple-200 uppercase tracking-wider mb-2"><span data-en="Preferred time (optional)" data-es="Hora preferida (opcional)">Hora preferida (opcional)</span></label>
+                  <select id="call-hora" name="call-hora"
                     class="w-full px-4 py-3.5 rounded-xl bg-white border border-purple-200 text-[#111111] focus:outline-none focus:border-purple-400 focus:ring-1 focus:ring-purple-400 transition-all text-sm">
                     <option value="">—</option>
                     <option value="09:00">09:00</option>
@@ -1728,6 +1728,16 @@ Your behavioral guidelines:
             preguntas: notes,
             company: (document.getElementById('call-company') || {}).value || ''
           };
+
+          var emailIsValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(formData.email).trim());
+          if (!String(formData.nombre).trim() || !emailIsValid || !String(formData.telefono).trim()) {
+            if (callToast) {
+              callToast.className = 'p-4 rounded-xl bg-amber-50 border border-amber-300 text-amber-900 text-sm text-center';
+              callToast.textContent = 'Revisa tu nombre, correo y teléfono. Son los únicos campos obligatorios.';
+              callToast.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+            return;
+          }
 
           callSubmitBtn.disabled = true;
           callSubmitBtn.innerHTML = '<span>Enviando...</span>';
