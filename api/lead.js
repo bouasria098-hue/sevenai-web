@@ -23,8 +23,8 @@ export default async function handler(request, response) {
     email: clean(body.email, 180).toLowerCase(),
     telefono: clean(body.telefono, 80),
     web: clean(body.web, 300),
-    fecha: clean(body.fecha, 20),
-    hora: clean(body.hora, 20),
+    fecha: clean(body.fecha, 20) || 'Sin preferencia',
+    hora: clean(body.hora, 20) || 'Sin preferencia',
     preguntas: clean(body.preguntas, 2000),
     company: ''
   };
